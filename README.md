@@ -13,3 +13,4 @@ PHP (general-purpose scripting language that is especially suited to web develop
 2.Copy the folder to XAMPP/htcdocs<br>
 3.Enable Apache and MySQL in XAMPP.<br>
 4.Open the browser(your preffered one)and run the localhost/foldername <br>
+![xampp](https://user-images.githubusercontent.com/44153941/47307632-2ff1c600-d64d-11e8-893a-2d9920361c5a.JPG)
