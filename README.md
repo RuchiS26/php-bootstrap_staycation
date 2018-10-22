@@ -1,5 +1,4 @@
 # php-bootstrap_staycation
-Minimalistic application for travel booking<br>
 <b>In a nutshell</b><br>
 Elementary platform to schedule and manage travel booking requested by the customer.<br>
 References: https://www.thomascook.in/ <br>
