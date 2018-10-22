@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SIGN IN</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width",initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {
+       background-image: url("http://www.pptbackgrounds.org/uploads/ice--sky-powerpoint-templates.jpg");
+	   background-size:cover;
+     }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">NO-SUFFER</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="no-suffer(home).html">HOME</a></li>
+	  <li><a href="no-suffer(tourism).html">TOURISM</a></li>
+      <li><a href="Transports.html">TRANSPORT</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PACKAGES
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Npackage.html">NATIONAL</a></li>
+          <li><a href="Ipackage.html">INTERNATIONAL</a></li>
+        </ul>
+	  <li><a href="no-suffer(about us).html">ABOUT US</a></li>
+	</ul>
+	  <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="no-suffer(sign in).html"><span class="glyphicon glyphicon-user"></span>SIGN IN</a></li>
+      <li><a href="no-suffer(log in).html"><span class="glyphicon glyphicon-log-in"></span>LOG IN</a></li>
+      </ul>
+   </div>
+</nav><br>
+<div class="container">
+<p align="center"><font size="6" color="black" style="text-shadow:2px 2px 2px black;"><b>PLEASR FILL IN YOUR DETAILS TO BE A MEMBER</b></font></p><br><br>
+
+<div class="container">
+<form action="no-suffer(sign_in).php" method="POST"><b>
+    <div class="form-group">
+      <label for="first_name">FIRST NAME:</label>
+      <input type="text" class="form-control" id="first_name" name="first_name">
+    </div><br>
+    <div class="form-group">
+      <label for="last_name">LAST NAME:</label>
+      <input type="text" class="form-control" id="last_name"name="last_name">
+    </div><br>
+    <div class="form-group">
+      <label for="address">ADDRESS:</label>
+      <textarea class="form-control" rows="5" id="address" name="address"></textarea>
+    </div>
+     <div class="form-group">
+      <label for="country">COUNTRY:</label>
+      <input type="text" class="form-control" id="country" name="country">
+    </div><br>
+    <div class="form-group">
+      <label for="state">STATE:</label>
+      <input type="text" class="form-control" id="state" name="state">
+    </div><br>
+	<div class="form-group">
+      <label for="phone">PHONE:</label>
+      <input type="text" class="form-control" id="phone" name="phone">
+    </div><br>
+    <div class="form-group">
+      <label for="e_mail">E_MAIL:</label>
+      <input type="text" class="form-control" id="e_mail" name="e_mail">
+    </div><br>
+<p>CREATE:</p>
+<div class="form-group">
+  <label for="user_id">USER_ID:</label>
+  <input type="text" class="form-control" id="user_id" name="user_id">
+</div>
+<div class="form-group">
+  <label for="password">Password:</label>
+  <input type="password" class="form-control" id="password" name="password">
+</div>
+<center>
+<input type="submit" class="btn btn-primary" name="submit" value="SUBMIT">
+</center><br><br>
+</b>
+</form>
+</div>
+
+</body>
+</html>

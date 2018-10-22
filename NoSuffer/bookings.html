@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Bookings</title>
+<style>
+	body {
+       background-image: url("http://www.pptbackgrounds.org/uploads/ice--sky-powerpoint-templates.jpg");
+	   background-size:cover;
+     }
+</style>
+  </head>
+  <body>
+	<div class="container">
+	<br>
+	<br>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h4>Flights</h4><br>
+				<p>AirIndia</p><br>
+				<p>Spicejet</p><br>
+				<p>Indigo</p><br>
+				<h4>Railways</h4><br>
+				<p>General Quota</p><br>
+				<p>A/C 2-tier</p><br>
+				<p>A/C 3-tier</p><br>
+				<h4>Buses</h4><br>
+				<p>Orange Tours and Travels</p><br>
+				<p>S.S Tours and Travels</p><br>
+				<p>Morning Tours and Travels</p><br>
+				<h4>Car Rentals</h4><br>
+				<p>Zoomcar</p><br>
+				<p>Noori</p><br>
+				<p>Safari</p><br>
+			</div>
+	
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<form method="post" action="transport.php">
+					<div class="form-group">
+						<label><b>Mode of Transport</b></label>
+						<input class="form-control" name="mot" type="text" placeholder="..."></input>
+					</div><br>
+					<div class="form-group">
+						<label><b>Source</b></label>
+						<input class="form-control" name="source" type="text" placeholder="Enter from..."></input>
+					</div><br>
+					<div class="form-group">
+						<label><b>Destination</b></label>
+						<input class="form-control" name="destination" type="text" placeholder="Enter to..."></input>
+					</div><br>
+					<div class="form-group">
+						<label><b>Full Name</b></label>
+						<input class="form-control" name="Name" type="text" placeholder="Your Name Here..."></input>
+					</div><br>
+					<div class="form-group">
+						<label><b>Age</b></label>
+						<input class="form-control" name="Age" type="number" placeholder="Your Age..."></input>
+					</div><br>
+					<div class="form-group">
+						<label><b>Gender</b></label>
+						<input class="form-control" name="Gender" type="text" placeholder="Your sex..."></input>
+					</div><br>
+					<div class="form-group">
+						<label><b>Email</b></label>
+						<input class="form-control" name="Email" type="text" placeholder="Valid email-id.."></input>
+					</div><br>
+					<div class="form-group">
+						<label><b>Seats</b></label>
+						<input class="form-control" name="Seats" type="number" placeholder="Seats to book.."></input>
+					</div><br>
+						
+					<button type="submit" class="btn btn-success">Submit</button>
+				</form>
+			</div>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LOGIN</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width",initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {
+       background-image: url("http://www.pptbackgrounds.org/uploads/ice--sky-powerpoint-templates.jpg");
+	   background-size:cover;
+     }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">NO-SUFFER</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="no-suffer(home).html">HOME</a></li>
+	  <li><a href="no-suffer(tourism).html">TOURISM</a></li>
+      <li><a href="Transports.html">TRANSPORT</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PACKAGES
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Npackage.html">NATIONAL</a></li>
+          <li><a href="Ipackage.html">INTERNATIONAL</a></li>
+        </ul>
+	  <li><a href="no-suffer(about us).html">ABOUT US</a></li>
+	</ul>
+	  <ul class="nav navbar-nav navbar-right">
+      <li><a href="no-suffer(sign in).html"><span class="glyphicon glyphicon-user"></span>SIGN IN</a></li>
+      <li class="active"><a href="no-suffer(log in).html"><span class="glyphicon glyphicon-log-in"></span>LOG IN</a></li>
+      </ul>
+   </div>
+</nav><br>
+<div class="container"><b>
+<form action="no-suffer(log_in).php" method="POST"><b>
+<h1>LOGIN</h1><br><br>
+<div class="form-group">
+  <label for="user_id">USER_ID:</label>
+  <input type="text" class="form-control" id="user_id" name="user_id">
+</div>
+<div class="form-group">
+  <label for="password">Password:</label>
+  <input type="password" class="form-control" id="password" name="password">
+</div><br>
+<center>
+<input type="SUBMIT" class="btn btn-primary" value="submit">
+</center>
+</form>
+</b>
+</div>
+</body>
+</html>
