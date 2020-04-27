@@ -1,5 +1,5 @@
 # php-bootstrap_staycation
-<b>In a nutshell</b><br>
+## In a nutshell<br>
 Elementary platform to schedule and manage travel booking requested by the customer.<br>
 References: https://www.thomascook.in/ <br>
 <b>Functionalities</b><br>
