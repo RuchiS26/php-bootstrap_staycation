@@ -7,7 +7,7 @@ Browse locations,reserve travel and user registrations<br>
 <b>Developed with</b><br>
 Bootstrap (open source toolkit for developing with HTML, CSS, and JS) - https://getbootstrap.com/<br>
 PHP (general-purpose scripting language that is especially suited to web development) - http://www.php.net/<br>
-<b>Local Execution</b><br> 
+<b>Local Execution</b><br> <br>
 1.Install XAMPP.<br>
 2.Copy the folder to XAMPP/htdocs<br>
 3.Enable Apache and MySQL in XAMPP.<br>
